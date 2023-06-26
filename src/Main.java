@@ -51,7 +51,6 @@ public class Main {
         }
         if (!isWin) {
             System.out.println("Kaybettiniz.");
-            if (isWrongInput)
             System.out.println("Tahminleriniz : " + Arrays.toString(wrong));
         }
 
